@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+
+
+
+
+# Folders created at runtime
+uploads/
+files/
+
