@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 // ✅ Enable CORS to allow frontend on localhost:5173
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://docx-to-pdf-converter-0v9a.onrender.com',
   methods: ['POST'],
 }));
 
