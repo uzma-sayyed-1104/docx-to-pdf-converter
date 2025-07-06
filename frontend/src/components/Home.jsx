@@ -20,7 +20,7 @@ function Home() {
     formData.append("file", selectedFile);
     try {
       const response = await axios.post(
-        "https://docx-to-pdf-converter-backend.onrender.com",
+        "https://docx-to-pdf-converter-backend.onrender.com/convertfile",
         formData,
         {
           responseType: "blob",
